@@ -1,0 +1,19 @@
+model,question,mode,latency_sec,answer
+llama3.2:1b,Who are the main characters mentioned?,no_rag,15.662,"This conversation has just begun. I'm happy to chat with you, but I don't have any information about a specific context or topic that would allow me to identify the main characters. Can you please provide more context or clarify what you're referring to? I'll do my best to help!"
+llama3.2:1b,Who are the main characters mentioned?,rag,25.261,"The main characters mentioned in the text are:
+
+1. Alice
+2. The King and Queen of Hearts
+3. The Knave of Hearts (including his crown)
+4. The White Rabbit
+5. The Boy (the king or queen's son, mentioned as sitting by them)"
+llama3.2:1b,What is the main idea of the story?,no_rag,6.93,"I'm sorry, but I don't see a question to answer. Could you please provide more context or clarify what story you would like me to summarize? I'll do my best to provide a helpful response based on my training data."
+llama3.2:1b,What is the main idea of the story?,rag,29.363,"The main idea of the story appears to be that the old man tells a tale with its own unique structure, using techniques such as changing names, settings, and plot elements (like dreams) to create a narrative that defies traditional storytelling conventions."
+llama3.2:1b,Describe what happens in the documents.,no_rag,7.107,"I'm happy to help, but I need more context or information about the specific document you're referring to. Could you please provide more details or clarify what type of document you're asking about (e.g., contract, letter, report)? I'll do my best to provide a detailed answer based on my internal knowledge."
+llama3.2:1b,Describe what happens in the documents.,rag,28.338,"The King instructs the jury to consider Alice's verdict, which is that there is more evidence to come yet. The White Rabbit then jumps up and mentions a letter that has been picked up, written by the prisoner to someone, but it seems too much for anyone to do except sit with its mouth open.
+
+The King asks who this letter is directed to, but the White Rabbit says it's not addressed to anyone. He then reveals that the letter is actually a set of verses, and not a letter at all.
+
+Alice expresses her puzzlement over the Hatter's comment about the Dormouse being asleep and then pours tea on its nose. The Dormouse responds by saying ""Of course, of course"" without opening its eyes."
+llama3.2:1b,Who are the main characters?,rag,13.2,"Alice and White Rabbit",1,no,5
+llama3.2:1b,Who are the main characters?,rag,13.2,"Alice and White Rabbit",1,no,5

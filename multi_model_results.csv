@@ -1,0 +1,39 @@
+model,question,mode,latency_sec,answer
+llama3.2:1b,Who are the main characters mentioned?,no_rag,7.904,"There is no specific question provided. Please ask again, and I'll do my best to provide a concise answer."
+llama3.2:1b,Who are the main characters mentioned?,rag,9.76,"The main characters mentioned in the text are:
+
+1. Alice
+2. The White Rabbit
+3. The Knave of Hearts (includes the King and Queen of Hearts)
+4. The King and Queen of Hearts
+5. The Boy"
+llama3.2:1b,What is the main idea of the story?,no_rag,5.921,"I'm not sure I have enough information about the specific story you're referring to. Could you please provide more context or details about the story, such as the title, genre, or plot summary? This would help me better understand your question and provide a more accurate answer."
+llama3.2:1b,What is the main idea of the story?,rag,10.12,I don't know.
+llama3.2:1b,Describe what happens in the documents.,no_rag,5.932,"I'm not sure I have access to internal knowledge about specific documents. If you could provide more context or information about the document, such as its type (e.g., government report, academic paper) or topic, I might be able to offer a more general response."
+llama3.2:1b,Describe what happens in the documents.,rag,10.571,I don't know.
+llama3.2:3b,Who are the main characters mentioned?,no_rag,14.709,I don't have any information about specific characters. Can you please provide more context or details about the topic you would like me to assist with? I'll do my best to help!
+llama3.2:3b,Who are the main characters mentioned?,rag,30.439,"The main characters mentioned in the context are:
+
+1. Alice
+2. The Gryphon
+3. The White Rabbit
+4. The Knave of Hearts
+5. The King of Hearts
+6. The Queen of Hearts 
+7. A boy (not further specified)"
+llama3.2:3b,What is the main idea of the story?,no_rag,7.93,I don't see any specific story provided. Could you please provide the text or context of the story you'd like me to summarize? I'll be happy to help!
+llama3.2:3b,What is the main idea of the story?,rag,32.497,I don't know.
+llama3.2:3b,Describe what happens in the documents.,no_rag,6.626,"I'm ready to assist. Please go ahead and ask your question, and I'll provide a concise answer based on my internal knowledge."
+llama3.2:3b,Describe what happens in the documents.,rag,32.53,I don't know. There is no mention of a document in the context provided.
+mistral:7b,Who are the main characters mentioned?,no_rag,64.102,"The main characters in the classic novel ""Pride and Prejudice"" by Jane Austen are Elizabeth Bennet, Mr. Fitzwilliam Darcy, Charles Bingley, Jane Bennet, Mr. Bingley, Lydia Bennet, Mary Bennet, Kitty Bennet, Mrs. Bennet, and Mr. Benjamin Bennet (the father). There are also supporting characters like Mr. Collins, Lady Catherine de Bourgh, and Mr. Wickham."
+mistral:7b,Who are the main characters mentioned?,rag,104.401,"The main characters mentioned in the context are Alice, the Gryphon, the King and Queen of Hearts, a great crowd (which includes various birds and beasts, as well as the whole pack of cards), the Knave (of Hearts), the White Rabbit, and the King and Queen of Hearts' son or page."
+mistral:7b,What is the main idea of the story?,no_rag,36.159,"The question does not specify which story, so I'll provide a general approach for answering this type of question. In literature, the main idea often refers to the central theme or message that the author intends to convey. To determine this, look for recurring motifs, character development, and the resolution of conflicts in the story. The main idea is not necessarily stated directly but is implied through the narrative, plot, and characters' actions."
+mistral:7b,What is the main idea of the story?,rag,145.477,"The main idea of the story, as presented in the context provided, appears to revolve around a bond between an old man and a boy, who seem to share a connection with nature and have vivid dreams. The old man frequently dreams about lions on a yellow beach and wakes the boy to urinate outside and then goes up the road. However, the story does not provide a clear overarching theme or plot, so it can be said that the main idea is the relationship between these two characters and their unusual routines."
+mistral:7b,Describe what happens in the documents.,no_rag,35.078,"I'm sorry for any confusion, but your question is quite broad as it doesn't specify which documents you're referring to. Documents can range from legal contracts, scientific research papers, novels, manuals, and more. Without a specific context or title, it's difficult for me to accurately describe what happens in the documents. Could you please provide more details?"
+mistral:7b,Describe what happens in the documents.,rag,150.701,"The context does not provide information about any specific document. It mentions a note-book and a letter/verses found by the White Rabbit, but details about their content are not given."
+gemma:2b,Who are the main characters mentioned?,no_rag,13.19,"I do not have internal knowledge, and therefore cannot provide a list of characters mentioned."
+gemma:2b,Who are the main characters mentioned?,rag,28.815,"The main characters mentioned in the context are the King and Queen of Hearts, Alice, the White Rabbit, the Knave of Hearts, and the King and Queen of Hearts."
+gemma:2b,What is the main idea of the story?,no_rag,8.8,"I am unable to access external sources or engage in thought processes to provide an answer. I can, however, offer a summary based on the context you provide."
+gemma:2b,What is the main idea of the story?,rag,34.649,"The main idea of the story is not mentioned in the context, so I cannot answer this question from the provided context."
+gemma:2b,Describe what happens in the documents.,no_rag,9.639,I am unable to access external documents or provide summaries or interpretations of the context. I do not have the ability to access or process external sources.
+gemma:2b,Describe what happens in the documents.,rag,33.356,"The document is a set of verses that describe an accident. The White Rabbit unfolds the paper and reads it aloud, describing the accident in detail."

@@ -1,0 +1,7 @@
+model,question,mode,latency_sec,answer
+llama3.2:1b,Who are the main characters mentioned?,no_rag,5.558,"This conversation has just begun. I'm happy to chat with you, but I don't have any context or information about a specific topic or question yet."
+llama3.2:1b,Who are the main characters mentioned?,rag,11.514,"The main character mentioned is Alice. She is the protagonist and narrator..."
+llama3.2:1b,What is the main idea of the story?,no_rag,4.834,"I'm sorry, but I don't see a question. Please share the text so I can answer."
+llama3.2:1b,What is the main idea of the story?,rag,18.958,"The story appears to be about an old man receiving a mysterious letter and talking with a boy..."
+llama3.2:1b,Describe what happens in the documents?,no_rag,6.056,"I'm happy to assist. However, I need more context or information about the specific documents."
+llama3.2:1b,Describe what happens in the documents?,rag,21.285,"Several documents are mentioned: the King's notebook, a letter from the prisoner, an entry about accidents, and the White Rabbit's handwritten verses."

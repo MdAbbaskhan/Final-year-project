@@ -1,0 +1,66 @@
+pipeline,llm_id,model,rag_id,question,mode,latency_sec,answer,relevance_score,correctness_score,completeness_score
+LLM1_RAG1,LLM1,llama3.2:3b,RAG1,Who are the main characters mentioned?,rag,47.098,"The main characters mentioned in the context are:
+
+1. Alice
+2. The Gryphon
+3. The King of Hearts
+4. The Queen of Hearts
+5. The White Rabbit
+6. The Knave of Hearts
+7. The boy (who is likely the young protagonist, possibly Alice herself)
+
+Note: There may be other minor characters mentioned in the context as well, but these are the main ones that are explicitly named or implied to be significant.",4,4,3
+LLM1_RAG1,LLM1,llama3.2:3b,RAG1,What is the main idea of the story?,rag,30.817,I don't know.,0,0,0
+LLM1_RAG1,LLM1,llama3.2:3b,RAG1,Describe what happens in the documents.,rag,31.098,I don't know.,0,0,0
+LLM1_RAG2,LLM1,llama3.2:3b,RAG2,Who are the main characters mentioned?,rag,68.756,"The main characters mentioned in the context are:
+
+1. Alice
+2. The Gryphon
+3. The White Rabbit
+4. The Knave of Hearts
+5. The King of Hearts
+6. The Queen of Hearts
+7. The Caterpillar
+8. The Hatter
+9. The March Hare",4,4,3
+LLM1_RAG2,LLM1,llama3.2:3b,RAG2,What is the main idea of the story?,rag,51.108,I don't know.,0,0,0
+LLM1_RAG2,LLM1,llama3.2:3b,RAG2,Describe what happens in the documents.,rag,39.222,I don't know.,0,0,0
+LLM1_RAG3,LLM1,llama3.2:3b,RAG3,Who are the main characters mentioned?,rag,35.57,"The main characters mentioned in the context include:
+
+1. Alice
+2. The Gryphon
+3. The King of Hearts
+4. The Queen of Hearts
+5. The White Rabbit
+6. The Knave of Hearts",4,4,3
+LLM1_RAG3,LLM1,llama3.2:3b,RAG3,What is the main idea of the story?,rag,32.36,I don't know.,0,0,0
+LLM1_RAG3,LLM1,llama3.2:3b,RAG3,Describe what happens in the documents.,rag,32.079,"I don't know. The context does not mention any ""documents"". It refers to a letter or paper with verses being found by the White Rabbit.",0,0,0
+LLM2_RAG1,LLM2,mistral:7b,RAG1,Who are the main characters mentioned?,rag,121.665,"In the provided context, the main characters mentioned are Alice, a Gryphon, the King and Queen of Hearts, a crowd that includes various little birds and beasts, the whole pack of cards (implying all the playing cards), the Knave (or Jack) of Hearts, the White Rabbit, and an old man. The context also mentions a boy, but it's not clear if he is a main character or not since he's only mentioned as being seated by the King.",1,0,1
+LLM2_RAG1,LLM2,mistral:7b,RAG1,What is the main idea of the story?,rag,135.067,"The main idea of the story, based on the provided context, appears to revolve around a relationship between an old man and a boy, as well as the old man's dreams and superstitions. However, without more context, it's difficult to summarize the story in one sentence.",1,0,1
+LLM2_RAG1,LLM2,mistral:7b,RAG1,Describe what happens in the documents.,rag,108.077,"The context does not provide information about any documents being described. It mentions a note-book and a letter or verses found by the White Rabbit, but there's no detail about their content.",4,4,3
+LLM2_RAG2,LLM2,mistral:7b,RAG2,Who are the main characters mentioned?,rag,182.145,[REQUEST TIMEOUT from Ollama],0,0,0
+LLM2_RAG2,LLM2,mistral:7b,RAG2,What is the main idea of the story?,rag,182.124,[REQUEST TIMEOUT from Ollama],0,0,0
+LLM2_RAG2,LLM2,mistral:7b,RAG2,Describe what happens in the documents.,rag,116.142,"The context does not provide information about any specific documents being described. It mentions a note-book belonging to the King and later a letter/paper found by the White Rabbit, but no details about their contents are given.",3,3,2
+LLM2_RAG3,LLM2,mistral:7b,RAG3,Who are the main characters mentioned?,rag,149.449,"The main characters mentioned in the context are Alice, the King, and the Queen. However, it's important to note that the full names of the King and Queen are not given explicitly, but they are referred to as the King and Queen of Hearts in the text.",3,2,2
+LLM2_RAG3,LLM2,mistral:7b,RAG3,What is the main idea of the story?,rag,129.675,"The provided text does not contain a self-contained narrative with a clear main idea, as it appears to be fragments from various sources rather than a coherent story. Therefore, it's challenging to determine the main idea based on this context alone.",0,0,0
+LLM2_RAG3,LLM2,mistral:7b,RAG3,Describe what happens in the documents.,rag,135.392,"The context does not provide information about any documents being described. The text discusses a trial with characters from Lewis Carroll's ""Alice's Adventures in Wonderland,"" such as the King, the White Rabbit, and the Hatter. There is mention of a note-book, a piece of paper, and verses written on it, but there is no description or discussion about these items being documents.",4,4,3
+LLM3_RAG1,LLM3,gemma:2b,RAG1,Who are the main characters mentioned?,rag,27.362,"The main characters mentioned in the context are the King and Queen of Hearts, Alice, the Knave of Hearts, and the King and Queen of Hearts.",3,2,2
+LLM3_RAG1,LLM3,gemma:2b,RAG1,What is the main idea of the story?,rag,27.153,"The main idea of the story is not clearly stated in the context, so I cannot answer this question from the provided context.",0,0,0
+LLM3_RAG1,LLM3,gemma:2b,RAG1,Describe what happens in the documents.,rag,27.005,"The documents describe a case of an accident where a prisoner is writing a history of the accident. The paper is a set of verses, and the prisoner is not able to write them himself.",4,4,3
+LLM3_RAG2,LLM3,gemma:2b,RAG2,Who are the main characters mentioned?,rag,54.293,"The main characters mentioned in the context are:
+
+- Alice
+- Gryphon
+- Mock Turtle
+- Caterpillar",2,1,1
+LLM3_RAG2,LLM3,gemma:2b,RAG2,What is the main idea of the story?,rag,52.68,The main idea of the story is that the boy and his family are trying to convince the King to allow them to play croquet on the beach.,1,0,1
+LLM3_RAG2,LLM3,gemma:2b,RAG2,Describe what happens in the documents.,rag,46.597,"The documents do not provide any information about what happens in the documents. Therefore, I cannot answer this question from the context.",1,1,1
+LLM3_RAG3,LLM3,gemma:2b,RAG3,Who are the main characters mentioned?,rag,21.491,"The main characters mentioned in the context are:
+
+- Alice
+- Gryphon
+- King and Queen of Hearts
+- Knave of Hearts
+- King and Queen of Hearts",4,4,3
+LLM3_RAG3,LLM3,gemma:2b,RAG3,What is the main idea of the story?,rag,28.008,"The main idea of the story is not explicitly stated in the context, therefore I cannot answer this question from the provided context.",0,0,0
+LLM3_RAG3,LLM3,gemma:2b,RAG3,Describe what happens in the documents.,rag,28.05,"The documents are a set of verses written by the prisoner, which are not a letter but a history of the accident.",4,4,3

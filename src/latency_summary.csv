@@ -1,0 +1,5 @@
+run,model,mode,count,mean,min,max
+multi_model_run_1,llama3.2:1b,no_rag,3,5.482666666666667,4.834,6.056
+multi_model_run_1,llama3.2:1b,rag,3,17.252333333333333,11.514,21.285
+rag_run_1,llama3.2:1b,no_rag,3,9.899666666666667,6.93,15.662
+rag_run_1,llama3.2:1b,rag,3,27.654,25.261,29.363
